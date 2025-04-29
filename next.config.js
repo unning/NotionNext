@@ -215,7 +215,9 @@ const nextConfig = {
     return config
   },
   experimental: {
+    largePageDataBytes: 1280 * 100000,
     scrollRestoration: true
+    
   },
   exportPathMap: async function (
     defaultPathMap,
