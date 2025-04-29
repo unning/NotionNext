@@ -14,9 +14,9 @@ const CONFIG = {
 
   // 首页底部推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   MAGZINE_RECOMMEND_POST_TAG: '推荐',
-  MAGZINE_RECOMMEND_POST_COUNT: 3,
+  MAGZINE_RECOMMEND_POST_COUNT: ,
   MAGZINE_RECOMMEND_POST_TITLE: '推荐文章',
-  MAGZINE_RECOMMEND_POST_SORT_BY_UPDATE_TIME: false, // 推荐文章排序，为`true`时将强制按最后修改时间倒序
+  MAGZINE_RECOMMEND_POST_SORT_BY_UPDATE_TIME: true, // 推荐文章排序，为`true`时将强制按最后修改时间倒序
 
   // Style
   MAGZINE_RIGHT_PANEL_DARK: process.env.NEXT_PUBLIC_MAGZINE_RIGHT_DARK || true, // 右侧面板深色模式
@@ -49,57 +49,6 @@ const CONFIG = {
           title: 'NotionNext',
           href: 'https://www.tangly1024.com'
         }
-      ]
-    },
-    {
-      name: '开发者',
-      menus: [
-        { title: 'Github', href: 'https://github.com/tangly1024/NotionNext' },
-        {
-          title: '开发帮助',
-          href: 'https://docs.tangly1024.com/article/how-to-develop-with-notion-next'
-        },
-        {
-          title: '功能反馈',
-          href: 'https://github.com/tangly1024/NotionNext/issues/new/choose'
-        },
-        {
-          title: '技术讨论',
-          href: 'https://github.com/tangly1024/NotionNext/discussions'
-        },
-        {
-          title: '关于作者',
-          href: 'https://blog.tangly1024.com/about'
-        }
-      ]
-    },
-    {
-      name: '支持',
-      menus: [
-        {
-          title: '站长社群',
-          href: 'https://docs.tangly1024.com/article/chat-community'
-        },
-        {
-          title: '咨询与定制',
-          href: 'https://docs.tangly1024.com/article/my-service'
-        },
-        {
-          title: '升级手册',
-          href: 'https://docs.tangly1024.com/article/my-service'
-        },
-        {
-          title: '安装教程',
-          href: 'https://docs.tangly1024.com/article/how-to-update-notionnext'
-        },
-        { title: 'SEO推广', href: 'https://seo.tangly1024.com/' }
-      ]
-    },
-    {
-      name: '解决方案',
-      menus: [
-        { title: '建站工具', href: 'https://www.tangly1024.com/' },
-        { title: 'NotionNext', href: 'https://docs.tangly1024.com/about' }
       ]
     }
   ],
